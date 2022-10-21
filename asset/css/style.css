@@ -1,0 +1,52 @@
+
+
+
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-size: 18px;
+    background-color: #FAEBD7;
+    color: #2F4F4F;
+}
+
+h1,
+h2 {
+    margin: 18px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F0F8FF;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #2e3b37;
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid #12a3a3;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #12a3a3;
+    color: #F0F8FF;
+}
