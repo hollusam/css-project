@@ -1,10 +1,15 @@
-
+/* Universal Selector */
+* {
+    padding: 0;
+    margin: 0;
+  }
 
 
 
 /* Element Selectors */
 body {
     position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     background-color: #FAEBD7;
     color: #2F4F4F;
@@ -50,3 +55,55 @@ footer {
     border-bottom: 10px solid #12a3a3;
     color: #F0F8FF;
 }
+
+figure {
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #12a3a3;
+    background-color: #F0F8FF;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #12a3a3;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input
+ {
+    box-sizing: border-box;
+    width: 300px;   
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #2F4F4F;
+    color: #FAEBD7;
+}
+
+/* Class Selectors */
+.text {
+    text-align: center;
+}
+
+.text-form {
+    text-align: right;
+}
+
